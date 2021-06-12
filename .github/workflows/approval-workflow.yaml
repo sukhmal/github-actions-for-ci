@@ -11,3 +11,4 @@ jobs:
       uses: pullreminders/label-when-approved-action@master
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        ADD_LABEL: "approved"
