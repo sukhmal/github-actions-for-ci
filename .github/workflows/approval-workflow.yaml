@@ -1,5 +1,5 @@
 name: Team awesome's approval workflow
-on: pull_request_review
+on: [pull_request_review]
 jobs:
   labelWhenApproved:
     name: Label when approved
