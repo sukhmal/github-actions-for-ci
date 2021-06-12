@@ -1,6 +1,8 @@
 name: Team Approval
 
-on: [pull_request_review]
+on:
+  pull_request_review:
+    types: [edited, dismissed]
 
 jobs:
   labelWhenApproved:
